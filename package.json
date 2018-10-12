@@ -1,0 +1,26 @@
+{
+  "name": "aot-youtube",
+  "version": "1.0.0",
+  "description": "Always on top Youtube app generator",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "nativefier": "^7.6.8",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScreamingHawk/aot-youtube.git"
+  },
+  "author": "Michael Standen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScreamingHawk/aot-youtube/issues"
+  },
+  "homepage": "https://github.com/ScreamingHawk/aot-youtube#readme"
+}
