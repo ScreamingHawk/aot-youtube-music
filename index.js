@@ -32,10 +32,10 @@ function nativefy(callback){
 		singleInstance: true,
 		alwaysOnTop: true,
 		// Size and border
-		minWidth: "494px",
-		minHeight: "366px",
-		width: "494px",
-		height: "366px",
+		minWidth: "1044px",
+		minHeight: "400px",
+		width: "1044px",
+		height: "400px",
 		// Allow app to navigate
 		internalUrls: '*',
 		// Additional config
