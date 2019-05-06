@@ -1,7 +1,7 @@
 {
-  "name": "aot-youtube",
+  "name": "aot-youtube-music",
   "version": "1.0.0",
-  "description": "Always on top Youtube app generator",
+  "description": "Always on top YouTube Music app generator",
   "main": "index.js",
   "dependencies": {
     "async": "^2.6.1",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ScreamingHawk/aot-youtube.git"
+    "url": "git+https://github.com/ScreamingHawk/aot-youtube-music.git"
   },
   "author": "Michael Standen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ScreamingHawk/aot-youtube/issues"
+    "url": "https://github.com/ScreamingHawk/aot-youtube-music/issues"
   },
-  "homepage": "https://github.com/ScreamingHawk/aot-youtube#readme"
+  "homepage": "https://github.com/ScreamingHawk/aot-youtube-music#readme"
 }

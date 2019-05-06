@@ -6,7 +6,7 @@ var async = require('async');
 
 var buildFolder = 'build';
 var builtPath = '';
-var newPathEnd = 'youtube-app';
+var newPathEnd = 'youtube-music-app';
 var newPath = path.join(buildFolder, newPathEnd);
 
 function clearBuildFolder(callback){
@@ -23,8 +23,8 @@ function clearBuildFolder(callback){
 function nativefy(callback){
 	// Config
 	var options = {
-		// Youtube URL
-		targetUrl: 'https://www.youtube.com',
+		// Youtube Music URL
+		targetUrl: 'https://music.youtube.com',
 		out: buildFolder,
 		// No source
 		asar: false,
@@ -69,7 +69,7 @@ function renameBuildFolder(callback){
 
 function createSymLink(callback){
 	// Create sym link
-	fs.symlink(path.join(newPathEnd, 'YouTube.exe'), path.join(buildFolder, 'YouTube'), function(err){
+	fs.symlink(path.join(newPathEnd, 'YouTubeMusic.exe'), path.join(buildFolder, 'YouTubeMusic'), function(err){
 		if (err){
 			console.log('Unable to create symbolic link');
 			console.log(err);

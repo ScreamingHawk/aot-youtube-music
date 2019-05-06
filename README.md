@@ -1,6 +1,6 @@
-# aot-youtube
+# aot-youtube-music
 
-Creates a native electron app linking to YouTube.com
+Creates a native electron app linking to Music.YouTube.com
 
 This app will display over the top of your other windows even when focus is lost.
 
@@ -16,7 +16,7 @@ Build it
 
 Run it
 
-`./build/YouTube`
+`./build/YouTubeMusic`
 
 ## Notes
 
